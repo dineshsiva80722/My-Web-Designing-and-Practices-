@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(hambuger.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: #fffdfda5;
+    position: fixed;
+    box-shadow: 1px 4px 15px;
+    z-index: 3;
+
+
+}
+
+.navbar #dropdwnbtn {
+    display: none;
+    background: none;
+    position: absolute;
+    color: #fffdfda5;
+    margin-top: 60%;
+}
+
+ul {
+    display: flex;
+    float: right;
+    margin: 25px 150px;
+    background: transparent;
+
+}
+
+li {
+    list-style: none;
+    margin-left: 50px;
+    background: transparent;
+
+}
+
+a {
+    text-decoration: none;
+    color: #6d6c6c;
+    font-weight: 600;
+    padding: 7px;
+    background: transparent;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.bodycontent {
+    position: absolute;
+    color: #fff;
+    background: #00000000;
+    margin: 20% 15%;
+    font-size: 2rem;
+    width: 300px;
+    height: 150px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+h6 {
+    position: absolute;
+}
+
+h3 {
+    background: transparent;
+}
+#check{
+    display: none;
+
+}
+label{
+    background: none;
+    float: right;
+    margin: 25px 30px;
+}
+svg{
+    background: none;
+    width: 30px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.burgerlist {
+    position: absolute;
+    margin-top: 65%;
+    background: none;
+    width: 90%;
+    height: 200px;
+    margin-left: 80px;
+    box-shadow: 0px 20px 30px 6px;
+}
+
+.burgerlist1 {
+    display: flex;
+    background: #f6f3f3;
+}
+
+.burgerimage {
+    width: 50%;
+    background: #f8f8f8;
+    border-right: 1px solid #5b5b5b;
+}
+
+img {
+    margin-left: 150px;
+    margin-top: 10px;
+
+
+}
+
+.price {
+    background: #f7f7f7;
+    width: 300px;
+    text-align: start;
+    margin-top: 120px;
+    margin-left: 230px;
+
+}
+
+h4 {
+    background: #fffdfd;
+    color: #080808;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#quoat {
+    position: absolute;
+    margin: -70px -90px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    background: none;
+    background-color: #6d6c6c;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 3px;
+    margin-top: 25px;
+
+}
+
+button:focus {
+    transition: ease-in-out 0.3s;
+    background-color: #f8f8f8;
+}
+
+.list2 {
+    margin-top: 50px;
+    height: 240px;
+    box-shadow: 5px 5px 30px;
+}
+
+.fotter {
+    position: absolute;
+    margin-top: 110%;
+    width: 100%;
+    height: 150px;
+    background: #464646;
+}
+
+.fotter h2 {
+    background: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fotter ul {
+    margin-right: 450px;
+}
+
+.fotter .backbtn {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 7px;
+
+}
+
+.backbtn h1 {
+    background: transparent;
+
+    cursor: pointer;
+    font-size: 2.5rem;
+
+}
+
+
+
+
+
+@media (max-width : 928px) {
+    .navbar {
+      
+        font-size: 0.8rem;
+
+    }
+
+    .navbar ul {
+        margin-right: 20px;
+        margin-top: 30px;
+
+    }
+
+    .bodycontent h3 {
+        font-size: 1.6rem;
+        width: 200px;
+    }
+
+    .burgerlist {
+        margin-left: 40px;
+        height: 130px;
+        border: 1px solid #000;
+    }
+
+    .burgerlist h4 {
+        font-size: 1rem;
+
+    }
+
+    .price {
+        margin-left: 20%;
+        margin-top: 7.5%;
+
+    }
+
+    img {
+        margin-left: 70px;
+        height: 150px;
+    }
+
+    .list2 {
+        height: 175px;
+    }
+
+    button {
+        padding: 4px;
+        margin-top: 23px;
+    }
+
+    .fotter {
+        margin-top: 130%;
+        height: 130px;
+    }
+
+    #alginbtn {
+        margin-top: 10px;
+    }
+
+    #quoat {
+        font-size: 1.2rem;
+        margin-left: -50px;
+        margin-top: -30px;
+    }
+
+    .list2 img {
+        height: 120px;
+    }
+
+    .fotter h2 {
+        font-size: medium;
+    }
+
+    .fotter ul {
+        font-size: 0.9rem;
+        margin-right: 150px;
+    }
+
+    .fotter li {
+        width: 100px;
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 858px) {
+    .navbar ul {
+        width: 100%;
+        height: 100vh;
+        margin: 0px 0px;
+        background: #fffdfdcf;
+        color: #fff;
+        position: relative;
+        left: -100%;
+        display: block;
+        transition: all 0.6s
+       
+
+    }
+    svg{
+        display: block;
+    }
+    .navbar ul li{
+       font-size: 20px;
+        text-align: center;
+        height: 30px;
+        margin: 70px 0px;
+        
+    }
+    .navbar ul li a:hover{
+        color: #040303;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+
+
+    .navbar{
+        height: 80px;
+    }
+
+
+
+    .bodycontent{
+       margin-top: 100px;
+        margin-left: 30px;
+    
+    }
+    .bodycontent h3{
+        font-size: 1rem;
+        width: 150px;
+        
+    }
+    .price #price{
+        font-size: 1rem;
+    }
+    .price h4{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .burgerlist{
+        margin-left: 20px;
+        box-shadow: 10px 10px 10px;
+    }
+  
+    .burgerimage img{
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    button{
+        padding: 2px;
+    }
+    .list2 img{
+        width: 100px;
+        height: 80px;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .list2{
+        height: 140px;
+        box-shadow: 10px 10px 10px;
+        border: 1px solid #000;
+    }
+    #quoat{
+       font-size: 1rem;
+       margin: -20px -30px;
+    }
+    .list2 .price{
+        margin: 40px 80px;
+    }
+    .fotter{
+        margin-top: 150%;
+        
+    }
+    .fotter ul{
+        font-size: 0.7rem;
+        margin-right: 25px;
+
+    }
+    .fotter ul li{
+        margin-left: -20px;
+       
+       
+    }
+    .backbtn{
+        margin-top: 20px;
+    }
+    .backbtn h1{
+        font-size: 1.5rem;
+    }
+
+    #dropdwnbtn{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        color: #fff;
+        background: transparent;
+       
+    }
+    #dropdwnbtn h4{
+        background: transparent;
+        position: absolute;
+        color: #000000;
+       margin-top: -280px;
+       margin-left: 360px;
+        font-size: 2rem;
+        font-weight: bold;
+        
+    }
+    #dropdwnbtn button{
+        background: transparent;
+        padding: none;
+        animation: dropdownnav;
+    }
+
+}
