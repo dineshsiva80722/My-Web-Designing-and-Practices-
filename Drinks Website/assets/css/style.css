@@ -1,0 +1,356 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background: #be1625;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    /* background: #489bef; */
+
+
+}
+
+
+.btn {
+    float: right;
+    text-align: center;
+    display: flex;
+    margin-left: 30px;
+}
+
+
+button {
+    all: unset;
+   
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+    margin: 15px 30px;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.paracontent {
+    width: 35%;
+    text-align: center;
+    height: auto;
+
+}
+
+.paracontent .para {
+    margin-top: 45%;
+    width: 70%;
+    margin-left: 13%;
+    padding: 5px;
+
+}
+.para::selection{
+    background-color: #be1625;
+    color: #fff;
+}
+.con2  .para::selection{
+     background-color: #4ba647;
+    color: #fff;
+
+}
+.con3  .para::selection{
+     background-color: #fd980c;
+    color: #fff;
+
+}
+.container .content {
+    /* border: 2px solid rgb(245, 245, 245); */
+    width: auto;
+    height: 90vh;
+}
+
+#maindrink {
+    position: absolute;
+    margin: 30px 90px;
+    z-index: 1;
+
+}
+
+#maindrink img {
+    animation: maindrink 0.2s ease-in-out;
+}
+
+
+
+@keyframes maindrink {
+    0% {
+        opacity: 0;
+
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
+#bgimg {
+    /* background: #fffff/f; */
+    position: absolute;
+    height: auto;
+    margin-top: 20px;
+    z-index: 0;
+
+}
+
+#bgimg img {
+    width: 200px;
+    height: auto;
+}
+
+.content .img1 {
+    margin: 20% 18%;
+    animation: image1 0.7s ease-out;
+
+}
+
+
+
+@keyframes image1 {
+    0% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
+.content .img2 {
+    margin-left: 370px;
+    animation: image2 0.7s ease-out;
+}
+
+@keyframes image2 {
+    0% {
+        opacity: 0;
+        margin-left: 340px;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
+.content .img3 {
+    margin-left: 140px;
+    animation: image3 0.7s ease-out;
+
+}
+
+
+@keyframes image3 {
+    0% {
+        opacity: 0;
+        margin-left: 180px;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
+.content .img4 {
+    margin-left: 140px;
+    animation: image4 0.7s ease-out;
+
+}
+
+@keyframes image4 {
+    0% {
+        opacity: 0;
+        margin-left: 170px;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
+.content .img5 {
+    margin-left: 370px;
+    animation: image5 0.7s ease-out;
+}
+
+@keyframes image5 {
+    0% {
+        opacity: 0;
+        margin-left: 340px;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+.scrollpage {
+    list-style: none;
+    float: right;
+    margin-left: 850px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.scrollpage li {
+    width: 25px;
+    height: 25px;
+    /* background: #ff7777; */
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000;
+}
+
+.sec,
+.third {
+    margin-left: 1270px;
+    margin-top: 250px;
+
+}
+
+.active {
+    text-decoration: underline;
+    cursor: default;
+
+}
+
+hr {
+    display: none;
+}
+
+.con2 {
+    background: #4ba647;
+    height: 100vh;
+}
+
+.con3 {
+    background: #fd980c;
+    height: 100vh;
+}
+
+.con2 .paracontent {
+    float: right;
+    margin-right: 150px;
+}
+
+
+#loginbbtn{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 40px;
+    float: right;
+    cursor: pointer;
+}
+
+#openlogin {
+    background: #fffafa00;
+    width: 400px;
+    position: fixed;
+    height: 55vh;
+    box-shadow: 2px 2px 15px;
+    margin: 10% 35%;
+    backdrop-filter: blur(5px);
+    display: none;
+    z-index: 2;
+    font-size: 18px;
+    text-align: center;
+    transition: 5s ease-out;
+}
+
+#label {
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    text-shadow: 2px 2px 3px;
+    padding: 15px 15px;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~ ul{
+    display: block;
+}
+
+#openlogin h1 {
+    color: #000000;
+}
+
+#email {
+    margin-top: 40px;
+}
+
+#openlogin h3 {
+    margin-top: 30px;
+    color: #000000;
+
+}
+
+#openlogin input {
+    all: unset;
+    padding: 5px 30px;
+    background: #fffdfd;
+
+}
+
+#openlogin button {
+    margin-top: 40px;
+    background: #837a7a;
+    padding: 2px 18px;
+    color: #010101;
+}
+.greenapple img{
+    width: 150px;
+    height: auto;
+    margin-left: 180px;
+    margin-top: 90px;
+
+}
+.con2 .img4 img{
+    margin-top: -70px;
+    position: absolute;
+
+}
+.con2 .img3 img{
+    /* background: #000; */
+    margin-top: 60px;
+}
+
+
+
